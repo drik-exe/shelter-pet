@@ -17,11 +17,11 @@
 .dog-image2 {
     background: url('../assets/dog-slide2.png') no-repeat center bottom;
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
-    
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
-.dog-image2 img {
-    
-}
+
 
 .pattern-background2 {
     background-color: #21201F;
