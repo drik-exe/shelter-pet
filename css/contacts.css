@@ -1,7 +1,45 @@
-div {
+div.adress-map {
     border: 10px solid black;
     position: absolute;
     left: 50%;
     top: 50%;
     transform:translate(-50%,-50%);
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.scroll-container {
+    width: 47vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: #f79824;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:visited {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #FFD7A8;
+}
+
+.pattern-background {
+    background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('../assets/repeat-bg-main.png') repeat;
+}
+
+.dog-image {
+    background: url('../assets/dog-contacts.png') no-repeat center center;
+    background-size: 80vh;
+    background-color: #21201F;
+    margin: 0px 0px 0px auto;
 }

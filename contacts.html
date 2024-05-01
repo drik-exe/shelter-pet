@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contacts.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cozy House</title>
 </head>
 <body>
-    <div>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac2da8205ae7e68e22a00ccad50273f770ff82fc8f3315dd74a20b02ae6efc6f3&amp;width=1000&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+    <header><!-- Хэдер надо сделать absolut что бы он не колизился с превым скролом-->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="assets/Logo.png" alt="Logo" style="padding-left: 20px;">
+            </a>
+            <!-- Тогглер для адаптивного меню -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">+</span>
+            </button>
+            <!-- Элементы навигации справа -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="padding-right: 20px">
+                <ul class="navbar-nav scroll-container">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About the shelter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our pets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help the shelter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="highlight">Contacts</span></a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 pattern-background d-flex flex-column justify-content-center">
+                <h1 style="font-size: 10vh;">Not <span class="highlight">only</span> people need a house</h1>
+                <p style="font-size: 2vh">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. <br> He or she will love you more than anybody else in the world, you will see!</p>
+                <button class="btn mt-3" style="width: 20vh; background-color: #f79824"><b>MAKE A FRIEND</b></button>
+            </div>
+            <div class="col-md-6 dog-image" style="height: 100vh;"></div>
+        </div>
     </div>
+
+    <!-- 
+    <div class="adress-map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac2da8205ae7e68e22a00ccad50273f770ff82fc8f3315dd74a20b02ae6efc6f3&amp;width=1000&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
