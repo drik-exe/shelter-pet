@@ -8,6 +8,7 @@
     <title>Cozy House</title>
 </head>
 <body>
+
     <header><!-- Хэдер надо сделать absolut что бы он не колизился с превым скролом-->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
@@ -39,6 +40,7 @@
             </div>
         </nav>
     </header>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 pattern-background d-flex flex-column justify-content-center">
@@ -50,21 +52,15 @@
         </div>
     </div>
 
-
-
-    <!-- <div class="about_pets">
-        <div class="about_the_shelter">
-            <h1>About the shelter “Cozy House”</h1>
-            <p>Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
-            <p>We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
-        </div>
-        <img src="">
-    </div> -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 pattern-background2 d-flex flex-column justify-content-center">
-                <h1 style="font-size: 10vh;">Not  people need a house</h1>
-                <p style="font-size: 2vh">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. <br> He or she will love you more than anybody else in the world, you will see!</p>
+                <h1 style="font-size: 10vh;">About the shelter “Cozy House”</h1>
+                <p style="font-size: 2vh">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will 
+                    find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.We 
+                    feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. <br><br>
+                    We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. 
+                    Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
             </div>
             <div class="col-md-6 dog-image2" style="height: 100vh;">
                 <img src="assets/dog-slide2.png" alt="" style="width: 80vh">
@@ -73,34 +69,38 @@
     </div>
 
 
-    <div class="pets">
-        <h1>Our friends who are looking for a house</h1>
-        <div class="scroller">
-            <button>
-                <img src="">
-            </button>
-            <div class="card" id="card1">
-                <img src="">
-                <h2></h2>
-                <button>Learn more</button>
+
+    <div class="container text-center mt-5">
+        <h1>OUR FRIENDS WHO ARE LOOKING FOR A HOUSE</h1>
+        <div class="d-flex justify-content-center align-items-center mt-4">
+            <button class="navigation-button">&lt;</button> <!-- Кнопка навигации влево -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/pets-katrine.png" alt="Katrine">
+                <div class="card-body">
+                    <h5 class="card-title">Katrine</h5>
+                    <button class="btn btn-light">LEARN MORE</button>
+                </div>
             </div>
-            <div class="card" id="card2">
-                <img src="">
-                <h2></h2>
-                <button>Learn more</button>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/pets-jennifer.png" alt="Jennifer">
+                <div class="card-body">
+                    <h5 class="card-title">Jennifer</h5>
+                    <button class="btn btn-light">LEARN MORE</button>
+                </div>
             </div>
-            <div class="card" id="card3">
-                <img src="">
-                <h2></h2>
-                <button>Learn more</button>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/pets-woody.png" alt="Woddy">
+                <div class="card-body">
+                    <h5 class="card-title">Woddy</h5>
+                    <button class="btn btn-light">LEARN MORE</button>
+                </div>
             </div>
-            <button>
-                <img src="">
-            </button>
+            <button class="navigation-button">&gt;</button> <!-- Кнопка навигации вправо -->
         </div>
-        <button>Get to know the rest</button>
+        <button class="btn mt-4" style="background-color: #f79824;"><b>GET TO KNOW THE REST</b></button> <!-- Главная кнопка -->
     </div>
-    <div class="help">
+
+    <!-- <div class="help">
         <h1>How you can help our shelter</h1>
         <div class="variants_to_help">
             <div class="variant_to_help">
@@ -140,7 +140,52 @@
                 <p>Sleeping areas</p>
             </div>
         </div>
+    </div> -->
+    <div class="container text-center mt-5">
+        <h1>КАК ВЫ МОЖЕТЕ ПОМОЧЬ НАШЕМУ ПРИЮТУ</h1>
+        <div class="row">
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-pet-food.svg" alt="">
+                <div class="icon-text">Корм</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-transportation.svg" alt="">
+                <div class="icon-text">Транспорт</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-toys.svg" alt="">
+                <div class="icon-text">Игрушки</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-bowls-and-cups.svg" alt="">
+                <div class="icon-text">Миски и посуда</div>
+            </div>
+            <!-- <div class="col-md-3 icon-container">
+                <img src="assets/icon-shampoos.svg" alt="">
+                <div class="icon-text">Shampoos</div>
+            </div> -->
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-vitamins.svg" alt="">
+                <div class="icon-text">Витамины</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-medicines.svg" alt="">
+                <div class="icon-text">Лекарства</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-collars.svg" alt="">
+                <div class="icon-text">Ошейники и поводки</div>
+            </div>
+            <div class="col-md-3 icon-container">
+                <img src="assets/icon-sleeping-area.svg" alt="">
+                <div class="icon-text">Спальные места</div>
+            </div>
+        </div>
     </div>
+    
     <div class="donation">
         <img src="">
         <div class="column">
@@ -153,6 +198,7 @@
             <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
         </div>
     </div>
+
     <footer>
         <div class="footer_column">
             <h1>For questions and suggestions</h1>

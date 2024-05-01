@@ -27,3 +27,24 @@
     background-color: #21201F;
     color: white;
 }
+
+.card {
+    margin: 30px 2vw;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+
+
+.navigation-button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
