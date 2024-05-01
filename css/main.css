@@ -1,15 +1,19 @@
-header {
-
+.pattern-background {
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
 
-header a{
 
+.highlight {
+    color: #f79824;
 }
 
-nav {
-    
+.friend-button {
+    background-color: #f79824;
+    border: none;
 }
 
-nav a{
-    
+.dog-image {
+    background: url('../assets/dog-main.png') no-repeat center center;
+    background-size: 80vh;
+    background-color: #21201F;
 }
