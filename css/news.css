@@ -42,6 +42,14 @@ body, html {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1vh 3vw;
+    font-size: 1vw;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-weight: bold;
   }
   
   .header h1 {
@@ -105,49 +113,60 @@ button {
 
 
 
+
 footer {
-    background-color: #21201F;
-    color: white;
-    padding: 20px 0;
+  background-color: #21201F;
+  color: white;
+  padding: 100px 0;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: top;
 }
 
+
 .column h3 {
-    margin: 0 0 10px 0;
-    font-weight: bold;
+ 
+  margin-bottom: 10px;
+  font-weight: bold;
+ 
 }
 
 .column p {
-    display: flex;
-    align-items: center;
-    color: orange;
-    margin: 5px 0;
+  display: flex;
+  align-items: center;
+  color: orange;
+  margin: 15px 0 0 0;
 }
 
 .column span {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
-.icon {
-    width: 16px;
-    height: 16px;
-    background-size: cover;
+.icon1 {
+  width: 26px;
+  height: 20px;
+  background-size: cover;
+}
+
+.icon2 {
+  width: 18px;
+  height: 26px;
+  background-size: cover;
 }
 
 
 .icon-mail {
-    background-image: url('../assets/icon-email.png');
+  background-image: url('../assets/icon-email.png');
 }
 
 .icon-phone {
-    background-image: url('../assets/icon-phone.png');
+  background-image: url('../assets/icon-phone.png');
 }
 
 .icon-map {
-    background-image: url('../assets/icon-marker.png');
+  background-image: url('../assets/icon-marker.png');
 }

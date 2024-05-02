@@ -99,37 +99,48 @@
 }
 
 
+
 footer {
     background-color: #21201F;
     color: white;
-    padding: 20px ;
+    padding: 100px 0;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
     gap: 50px;
+    align-items: top;
 }
 
+
 .column h3 {
-    margin: 0 0 10px 0;
+   
+    margin-bottom: 10px;
     font-weight: bold;
+   
 }
 
 .column p {
     display: flex;
     align-items: center;
     color: orange;
-    margin: 5px 0;
+    margin: 15px 0 0 0;
 }
 
 .column span {
     margin-left: 10px;
 }
 
-.icon {
-    width: 16px;
-    height: 16px;
+.icon1 {
+    width: 26px;
+    height: 20px;
+    background-size: cover;
+}
+
+.icon2 {
+    width: 18px;
+    height: 26px;
     background-size: cover;
 }
 
