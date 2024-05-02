@@ -42,19 +42,21 @@ a.nav-link:hover {
 }
 
 .goaltext {
+    font-family: 'Waffle';
     width: 100%;
     text-align: center;
     margin: 60px 0px;
-    font-weight: 800;
-    font-size: 60px;
+    font-size: 65px;
+}
+
+.adress-map-box{
+    background-color: F6F6F6;
+    padding: 0 11% 100px 11%;
 }
 
 .adress-map {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width: 78%;
-    margin: 0 11% 100px 11%;
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 
 .icon_text {
@@ -88,38 +90,4 @@ footer {
 
 .column span {
     margin-left: 10px;
-}
-
-.main-content {
-    display: flex; /* Используем flexbox для расположения колонок */
-    align-items: center; /* Вертикальное центрирование контента колонок */
-}
-
-.main-content button{
-    margin-bottom: 15px;
-}
-
-.left-column,
-.right-column {
-    flex: 1; /* Колонки займут по половине ширины родителя */
-    display: flex; /* Также используем flexbox для центрирования изображения и текста */
-    justify-content: center; /* Горизонтальное центрирование содержимого колонок */
-    align-items: center; /* Вертикальное центрирование содержимого колонок */
-    text-align: center; /* Центрируем текст внутри правой колонки */
-    padding: 20px; /* Добавляем немного отступа */
-}
-
-.left-column img {
-    max-width: 100%; /* Чтобы картинка не выходила за пределы своей колонки */
-    height: auto; /* Чтобы сохранить пропорции картинки */
-}
-
-.text-content {
-    max-width: 80%; /* Ограничиваем ширину текста, делая его менее широким, чем колонка */
-}
-
-/* Стили для кнопки */
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
 }
