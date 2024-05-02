@@ -54,15 +54,11 @@
     margin-bottom: 0.75rem;
 }
 
-
-
 .navigation-button {
     border: none;
     background-color: #fff;
     color: #000;
 }
-
-
 
 .navigation {
     display: flex;
@@ -133,15 +129,16 @@
 }
 
 .card-button:hover {
-    box-shadow: 0 0 20px rgba(0,0,0,0.35);
-    background-color: rgb(244, 244, 244);
-  }
+    box-shadow: 0 0 20px rgba(0,0,0,0.45);
+    background-color: rgb(234, 234, 234);
+}
 
 .card {
     margin: 30px 2vw;
     box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
     font-family: 'Waffle';
     align-items: center;
+    transition: all 0.5s ease;
 }
 
 .card img {
@@ -160,4 +157,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.card:hover {
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.4);
 }

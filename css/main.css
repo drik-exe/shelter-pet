@@ -49,6 +49,8 @@
 
     .container1 {
         width: 100%;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -61,6 +63,11 @@
     margin: 30px 2vw;
     box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
     font-family: 'Waffle';
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.4);
 }
 
 .card img {
@@ -81,6 +88,12 @@
     font-weight: bold;
     padding: 0.6rem 1rem;
     font-family: 'Waffle';
+    transition: all 0.5s ease;
+}
+
+.navigation-button:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.45);
+    background-color: rgb(243, 243, 243);
 }
 
 .main-button {
@@ -103,36 +116,12 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin-bottom: 15px;
     font-weight: bold;
+    transition: all 0.5s ease;
 }
 
-/* ////// */
-
-.left-column,
-.right-column {
-    flex: 1; /* Колонки займут по половине ширины родителя */
-    display: flex; /* Также используем flexbox для центрирования изображения и текста */
-    justify-content: center; /* Горизонтальное центрирование содержимого колонок */
-    align-items: center; /* Вертикальное центрирование содержимого колонок */
-    text-align: center; /* Центрируем текст внутри правой колонки */
-    padding: 20px; /* Добавляем немного отступа */
-}
-
-.left-column img {
-    max-width: 100%; /* Чтобы картинка не выходила за пределы своей колонки */
-    height: auto; /* Чтобы сохранить пропорции картинки */
-}
-
-.text-content {
-    max-width: 80%; /* Ограничиваем ширину текста, делая его менее широким, чем колонка */
-}
-
-.main-content {
-    display: flex; /* Используем flexbox для расположения колонок */
-    align-items: center; /* Вертикальное центрирование контента колонок */
-}
-
-.main-content button{
-    margin-bottom: 15px;
+.card-button:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.45);
+    background-color: rgb(234, 234, 234);
 }
 
 footer {
@@ -169,6 +158,16 @@ footer {
     background-size: cover;
 }
 
+.title-text {
+    margin: 0px auto 60px auto;
+    width: 40vw;
+}
+
+@media (max-width: 775px) {
+    .title-text {
+        width: 70vw;
+    }
+}
 
 .icon-mail {
     background-image: url('../assets/icon-email.png');
