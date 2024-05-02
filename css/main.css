@@ -30,7 +30,8 @@
 
 .card {
     margin: 30px 2vw;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+    font-family: 'Waffle';
 }
 
 .card img {
@@ -50,6 +51,7 @@
     border-radius: 12px;
     font-weight: bold;
     padding: 0.6rem 1rem;
+    font-family: 'Waffle';
 }
 
 .main-button {
@@ -67,8 +69,10 @@
     border: none;
     padding: 1.4vh 3vw;
     font-size: 0.85vw;
-    border-radius: 12px;
+    border-radius: 16px;
+    font-size: 14px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -155,8 +159,8 @@ footer {
 
 header {
     background: #21201F;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000; /* Выставляем высокий z-index */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
     position: relative;
 }
 

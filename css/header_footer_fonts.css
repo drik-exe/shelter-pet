@@ -18,9 +18,20 @@
 
 .container-fluid h1 {
     font-family: 'Waffle';
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-family: 'Waffle';
+    text-transform: uppercase;
 }
 
 .container-fluid p {
+    font-family: 'Evolve';
+    font-weight: 400;
+}
+
+.container .icon-text {
     font-family: 'Evolve';
     font-weight: 400;
 }
