@@ -35,7 +35,7 @@ a.nav-link:hover {
 
 .dog-image {
     background: url('../assets/dog-contacts.png') no-repeat center center;
-    background-size: 65vh;
+    background-size: 80%;
     background-color: #21201F;
     background-position: right bottom;
     margin: 0px 0px 0px auto;
@@ -62,32 +62,19 @@ a.nav-link:hover {
 .icon_text {
     display: flex;
     align-items: center;
+    margin: 20px 0;
 }
 
-footer {
-    background-color: #21201F;
-    color: white;
-    padding: 20px 0;
+.icon_text img {
+    width: 9%;
+    height: auto;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.icon_text p{
+    margin: 0% 3%;
 }
 
-.column h3 {
-    margin: 0 0 10px 0;
-    font-weight: bold;
-}
 
-.column p {
-    display: flex;
-    align-items: center;
-    color: orange;
-    margin: 5px 0;
-}
-
-.column span {
-    margin-left: 10px;
+.row1 {
+    height: 900px;
 }
