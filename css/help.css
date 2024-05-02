@@ -16,95 +16,11 @@
     align-items: end;
 }
 
-
-.main-content {
-    display: flex; /* Используем flexbox для расположения колонок */
-    align-items: center; /* Вертикальное центрирование контента колонок */
-    background: #F6F6F6;
-}
-
-.main-content button{
-    margin-bottom: 15px;
-}
-
-.left-column,
-.right-column {
-    flex: 1; /* Колонки займут по половине ширины родителя */
-    display: flex; /* Также используем flexbox для центрирования изображения и текста */
-    justify-content: left; /* Горизонтальное центрирование содержимого колонок */
-    align-items: left; /* Вертикальное центрирование содержимого колонок */
-    text-align: left; /* Центрируем текст внутри правой колонки */
-    padding: 20px; /* Добавляем немного отступа */
-}
-
-.left-column img {
-    max-width: 100%; /* Чтобы картинка не выходила за пределы своей колонки */
-    height: auto; /* Чтобы сохранить пропорции картинки */
-}
-
-.text-content {
-    max-width: 60%; /* Ограничиваем ширину текста, делая его менее широким, чем колонка */
-}
-
-/* Стили для кнопки */
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
-}
-
-.main-button {
-    background-color: #FF8A00;
-    color: black;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 12px;
-}
-
-
-.main-button .button-content {
-    display: flex; /* Используем flexbox для горизонтального выравнивания */
-    align-items: center; /* Элементы будут вертикально выравнены по центру */
-    justify-content: center; /* Элементы будут горизонтально выравнены по центру */
-}
-
-.icon {
-    vertical-align: middle; /* Выравниваем иконку посредине относительно текста */
-    width: 26px; /* Убедитесь, что размеры соответствуют дизайну */
-    height: 20px; /* Убедитесь, что размеры соответствуют дизайну */
-    background-size: contain; /* Убедитесь, что иконка не обрезается */
-    background-repeat: no-repeat; /* Иконка не будет повторяться */
-    margin-right: 10px; /* Добавляем отступ справа от иконки до текста */
-}
-
-.icon-card {
-    background-image: url('../assets/card.png');
-    /* filter: invert(100%) sepia(0%) saturate(7490%) hue-rotate(1deg) brightness(66%) contrast(101%); */
-}
-
-.iconph {
-    vertical-align: middle; /* Выравниваем иконку посредине относительно текста */
-    width: 18px; /* Убедитесь, что размеры соответствуют дизайну */
-    height: 18px; /* Убедитесь, что размеры соответствуют дизайну */
-    background-size: contain; /* Убедитесь, что иконка не обрезается */
-    background-repeat: no-repeat; /* Иконка не будет повторяться */
-    margin-right: 10px; /* Добавляем отступ справа от иконки до текста */
-}
-
-.icon-phon {
-    background-image: url('../assets/phon.png');
-     filter: invert(100%) sepia(0%) saturate(7490%) hue-rotate(1deg) brightness(66%) contrast(101%); 
-}
-
-
-
 .pattern-background2 {
     background-color: #21201F;
     color: white;
 }
 
-.orange:hover {
-    background-color: #e56809; /* Чуть более темный оттенок серого */
-}
 
 .item-shelter {
     display: flex;
