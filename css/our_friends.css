@@ -8,8 +8,8 @@
 }
 
 .dog-image {
-    background-image: url('../assets/dogs-main.png') no-repeat center center;
-    background-size: 80vh;
+    background: url('../assets/dogs-main.png') no-repeat center center;
+    background-size: 75vh;
     background-color: #21201F;
 }
 
@@ -46,4 +46,101 @@
     border: none;
     background-color: #fff;
     color: #000;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Изменим выравнивание по вертикали */
+    padding-top: 20px; /* Добавим некоторый отступ сверху */
+    padding-bottom: 40px;
+}
+
+.circle {
+    display: flex;
+    
+    line-height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px; /* Увеличим отступ между кружками */
+    width: 70px; /* Увеличим размер кружков */
+    height: 70px;
+    border-radius: 40%;
+    font-size: 24px; /* Увеличим размер шрифта для стрелок и номера */
+    color: white;
+    /* остальные стили остаются теми же */
+}
+
+.white, .white2 {
+    background-color: #FCFCFC;
+    color: gray;
+    font-size: 40px;
+    transition: background-color 0.3s; /* Добавляем плавность перехода цвета */
+}
+
+/* При наведении цвет фона для белых кружков станет немного серее */
+.white:hover, .white2:hover {
+    background-color: #E6E6E6; /* Чуть более темный оттенок серого */
+}
+
+.orange
+{
+    background-color: orange;
+    color: black;
+    font-size: 35px;
+    transition: background-color 0.3s; 
+}
+
+.orange:hover {
+    background-color: #e56809; /* Чуть более темный оттенок серого */
+}
+
+
+footer {
+    background-color: #21201F;
+    color: white;
+    padding: 20px ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.column h3 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.column p {
+    display: flex;
+    align-items: center;
+    color: orange;
+    margin: 5px 0;
+}
+
+.column span {
+    margin-left: 10px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+
+
+.icon-mail {
+    background-image: url('../assets/icon-email.png');
+}
+
+.icon-phone {
+    background-image: url('../assets/icon-phone.png');
+}
+
+.icon-map {
+    background-image: url('../assets/icon-marker.png');
 }
