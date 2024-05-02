@@ -46,6 +46,15 @@ body, html {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-weight: bold;
   }
+
+  .container h2 {
+    font-family: 'Waffle';
+  }
+
+  .container p {
+    font-family: 'Evolve';
+    font-weight: 400;
+  }
   
   .content p {
     font-size: 1rem;
