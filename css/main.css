@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Waffle-Soft';
+    src: url('../fonts/MADE Waffle Soft.otf') format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
 .pattern-background {
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
@@ -146,4 +153,59 @@ footer {
 
 .icon-map {
     background-image: url('../assets/icon-marker.png');
+}
+
+
+    /* usagi */
+
+
+header {
+    position: absolute; /* ЭТО НАДО ИСПРАВИТЬ, НЕ РАБОТАЕТ АДАПТИВ */
+    width: 100%;
+    z-index: 10; 
+}
+
+.scroll-container {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: #f79824;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:visited {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #FFD7A8;
+}
+
+#lines {
+    border-bottom: 12px double white;
+    border-top: 4px solid white;
+    content: "";
+    height: 4px;
+    width: 30px;
+    box-sizing: unset;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container-fluid h1 {
+    font-family: 'Waffle-Soft';
+}
+
+.container h1 {
+    font-family: 'Waffle-Soft';
+}
+
+.container-padding {
+    padding-left: 100px;
 }
