@@ -111,3 +111,44 @@ footer {
     width: 40px;
     height: 30px;
 }
+
+header {
+    background: #21201F;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    position: relative;
+}
+
+.scroll-container {
+    width: 48vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: #FF8A00;
+}
+
+a.nav-link {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+a.nav-link:visited {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #FFD7A8;
+}
+
+#lines {
+    border-bottom: 12px double white;
+    border-top: 4px solid white;
+    content: "";
+    height: 4px;
+    width: 30px;
+    box-sizing: unset;
+    display: inline-block;
+    vertical-align: middle;
+}

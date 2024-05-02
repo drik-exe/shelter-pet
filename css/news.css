@@ -2,11 +2,6 @@
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
 
-
-.highlight {
-    color: #f79824;
-}
-
 .dog-image {
     background: url('../assets/golden.png') no-repeat center center;
     background-size: 75vh;
@@ -50,12 +45,6 @@ body, html {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-weight: bold;
-  }
-  
-  .header h1 {
-    font-size: 2rem;
-    color: #333;
-    text-align: left;
   }
   
   .content p {
@@ -109,64 +98,4 @@ button {
 .pattern-background2 {
     background-color: #21201F;
     color: white;
-}
-
-
-
-
-footer {
-  background-color: #21201F;
-  color: white;
-  padding: 100px 0;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  align-items: top;
-}
-
-
-.column h3 {
- 
-  margin-bottom: 10px;
-  font-weight: bold;
- 
-}
-
-.column p {
-  display: flex;
-  align-items: center;
-  color: orange;
-  margin: 15px 0 0 0;
-}
-
-.column span {
-  margin-left: 10px;
-}
-
-.icon1 {
-  width: 26px;
-  height: 20px;
-  background-size: cover;
-}
-
-.icon2 {
-  width: 18px;
-  height: 26px;
-  background-size: cover;
-}
-
-
-.icon-mail {
-  background-image: url('../assets/icon-email.png');
-}
-
-.icon-phone {
-  background-image: url('../assets/icon-phone.png');
-}
-
-.icon-map {
-  background-image: url('../assets/icon-marker.png');
 }

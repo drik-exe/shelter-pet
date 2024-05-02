@@ -2,12 +2,6 @@
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
 
-
-.highlight {
-    color: #FF8A00;
-}
-
-
 .dog-image {
     background: url('../assets/dog-main.png') no-repeat center center;
     background-size: 80vh;
@@ -21,7 +15,6 @@
     justify-content: center;
     align-items: end;
 }
-
 
 .pattern-background2 {
     background-color: #21201F;
@@ -156,55 +149,6 @@ footer {
 
     /* usagi */
 
-
-header {
-    background: #21201F;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    position: relative;
-}
-
-.scroll-container {
-    width: 48vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.highlight {
-    color: #FF8A00;
-}
-
-a.nav-link {
-    color: white;
-    transition: color 0.5s ease;
-}
-
-a.nav-link:visited {
-    color: white;
-}
-
-a.nav-link:hover {
-    color: #FFD7A8;
-}
-
-#lines {
-    border-bottom: 12px double white;
-    border-top: 4px solid white;
-    content: "";
-    height: 4px;
-    width: 30px;
-    box-sizing: unset;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.container-fluid h1 {
-    font-family: 'Waffle';
-}
-
-.container h1 {
-    font-family: 'Waffle';
-}
 
 .container-padding {
     padding-left: 100px;

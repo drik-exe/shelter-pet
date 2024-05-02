@@ -2,11 +2,6 @@
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
 
-
-.highlight {
-    color: #f79824;
-}
-
 .dog-image {
     background-color: #21201F;
     display: flex;
@@ -95,64 +90,5 @@
 }
 
 .orange:hover {
-    background-color: #e56809; /* Чуть более темный оттенок серого */
-}
-
-
-
-footer {
-    background-color: #21201F;
-    color: white;
-    padding: 100px 0;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: top;
-}
-
-
-.column h3 {
-   
-    margin-bottom: 10px;
-    font-weight: bold;
-   
-}
-
-.column p {
-    display: flex;
-    align-items: center;
-    color: orange;
-    margin: 15px 0 0 0;
-}
-
-.column span {
-    margin-left: 10px;
-}
-
-.icon1 {
-    width: 26px;
-    height: 20px;
-    background-size: cover;
-}
-
-.icon2 {
-    width: 18px;
-    height: 26px;
-    background-size: cover;
-}
-
-
-.icon-mail {
-    background-image: url('../assets/icon-email.png');
-}
-
-.icon-phone {
-    background-image: url('../assets/icon-phone.png');
-}
-
-.icon-map {
-    background-image: url('../assets/icon-marker.png');
+    background-color: #FF8A00; /* Чуть более темный оттенок серого */
 }
