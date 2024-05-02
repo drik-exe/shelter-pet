@@ -54,3 +54,8 @@ body{
 .row1 {
     height: 900px;
 }
+
+.white_card {
+    background-color: white;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);;
+}
