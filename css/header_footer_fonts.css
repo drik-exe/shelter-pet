@@ -59,6 +59,12 @@ footer {
         align-items: center;  
         text-align: center;  
     }
+
+    .column p {
+        display: flex;
+        justify-content: center;
+        margin: 15px auto 0 auto;
+    }
 }
 
 .column h3 {
@@ -197,10 +203,23 @@ a.nav-link:hover {
     flex-wrap: wrap;
 }
 
+@media (max-width: 1270px)
+{
+    .donats_content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .donats_column {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .donats_content img {
     width: 480px;
     height: fit-content;
-    margin-right: 5%;
+    margin: 0 5% 0 5%;
 }
 
 .donats_column {
