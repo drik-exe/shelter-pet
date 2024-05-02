@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Waffle';
+    src: url('../fonts/MADE Waffle Soft.otf') format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Evolve';
+    src: url('../fonts/MADE Evolve Sans Medium.otf') format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Evolve';
+    src: url('../fonts/MADE Evolve Sans Regular.otf') format("truetype");
+    font-weight: 400;
+}
+
+.container-fluid h1 {
+    font-family: 'Waffle';
+}
+
+.container-fluid p {
+    font-family: 'Evolve';
+    font-weight: 400;
+}
