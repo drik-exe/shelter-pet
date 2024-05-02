@@ -8,9 +8,10 @@
 }
 
 .dog-image {
-    background: url('../assets/volunteer.png') no-repeat center center;
-    background-size: 75vh;
     background-color: #21201F;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .dog-image2 {
@@ -109,4 +110,12 @@ footer {
 
 .icon-map {
     background-image: url('../assets/icon-marker.png');
+}
+
+.main-button {
+    background-color: #f79824;
+    color: black;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 12px;
 }
