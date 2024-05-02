@@ -9,18 +9,36 @@
     padding-right: 0px;
 }
 
-.dog-image2 {
-    background: url('../assets/dog-slide2.png') no-repeat center bottom;
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.dog-image {
+    background: url('../assets/dogs-main.png') no-repeat bottom right;
+    background-size: 100vh;
+    background-color: #21201F;
+    padding-right: 0px;
+    width: 50%;
 }
 
+.row2 {
+    display: flex;
+}
 
-.pattern-background2 {
-    background-color: #21201F;
-    color: white;
+.container1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1330px) {
+    .row2 .dog-image {
+        width: 0px;
+        padding: 0px;
+    }
+
+    .container1 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .card {
