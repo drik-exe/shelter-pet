@@ -3,8 +3,8 @@
 }
 
 .dog-image {
-    background: url('../assets/golden.png') no-repeat center center;
-    background-size: 75vh;
+    background: url('../assets/golden.png') no-repeat bottom center;
+    background-size: 85vh;
     background-color: #21201F;
 }
 
@@ -61,15 +61,17 @@ body, html {
   }
   
   .btn-learn-more {
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    font-size: 0.85vw;
+    border-radius: 16px;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
     font-weight: bold;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
+    transition: all 0.5s ease;
   }
   
   .btn-learn-more:hover {
