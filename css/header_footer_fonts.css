@@ -87,12 +87,27 @@ footer {
 
 .icon-mail {
     background-image: url('../assets/icon-email.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
 }
 
 .icon-phone {
     background-image: url('../assets/icon-phone.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
 }
 
 .icon-map {
     background-image: url('../assets/icon-marker.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
 }
