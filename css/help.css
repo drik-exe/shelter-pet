@@ -63,30 +63,36 @@ button {
     color: white;
 }
 
-
+.orange:hover {
+    background-color: #e56809; /* Чуть более темный оттенок серого */
+}
 
 footer {
     background-color: #21201F;
     color: white;
-    padding: 20px 0;
+    padding: 100px 0;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
     gap: 50px;
+    align-items: top;
 }
 
+
 .column h3 {
-    margin: 0 0 10px 0;
+   
+    margin-bottom: 10px;
     font-weight: bold;
+   
 }
 
 .column p {
     display: flex;
     align-items: center;
     color: orange;
-    margin: 5px 0;
+    margin: 15px 0 0 0;
 }
 
 .column span {
