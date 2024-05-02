@@ -6,14 +6,50 @@
     background: url('../assets/dog-main.png') no-repeat center center;
     background-size: 80vh;
     background-color: #21201F;
+    width: 50%;
+}
+
+.pattern-image {
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
+    width: 50%;
 }
 
 .dog-image2 {
-    background: url('../assets/dog-slide2.png') no-repeat center bottom;
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
+    background: url('../assets/dog-slide2.png') no-repeat bottom center;
+    background-size: 90vh;
+    width: 100%;
+}
+
+.row2 {
     display: flex;
+}
+
+.container1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: end;
+}
+
+@media (max-width: 1000px) {
+    .row2 .dog-image {
+        width: 0px;
+        padding: 0px;
+    }
+
+    .row2 .dog-image2 {
+        width: 0px;
+        padding: 0px;
+    }
+
+    .row2 .pattern-image {
+        width: 0px;
+        padding: 0px;
+    }
+
+    .container1 {
+        width: 100%;
+    }
 }
 
 .pattern-background2 {
