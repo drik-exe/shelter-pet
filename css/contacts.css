@@ -54,33 +54,3 @@ body{
 .row1 {
     height: 900px;
 }
-
-.main-content {
-    display: flex; /* Используем flexbox для расположения колонок */
-    align-items: center; /* Вертикальное центрирование контента колонок */
-    background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);;
-}
-
-.main-content button{
-    margin-bottom: 15px;
-}
-
-.left-column,
-.right-column {
-    flex: 1; /* Колонки займут по половине ширины родителя */
-    display: flex; /* Также используем flexbox для центрирования изображения и текста */
-    justify-content: left; /* Горизонтальное центрирование содержимого колонок */
-    align-items: left; /* Вертикальное центрирование содержимого колонок */
-    text-align: left; /* Центрируем текст внутри правой колонки */
-    padding: 20px; /* Добавляем немного отступа */
-}
-
-.left-column img {
-    max-width: 100%; /* Чтобы картинка не выходила за пределы своей колонки */
-    height: auto; /* Чтобы сохранить пропорции картинки */
-}
-
-.text-content {
-    max-width: 60%; /* Ограничиваем ширину текста, делая его менее широким, чем колонка */
-}

@@ -162,7 +162,7 @@ a.nav-link:hover {
     font-size: 20px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     width: fit-content;
 }
 
@@ -179,4 +179,81 @@ a.nav-link:hover {
 
 .orange_button:focus {
     outline: none;
+}
+
+.donats_content {
+    padding: 70px 10% 80px 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donats_content img {
+    width: 480px;
+    height: fit-content;
+    margin-right: 5%;
+}
+
+.donats_column {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+}
+
+.donats_column h1 {
+    font-family: 'Waffle';
+    text-transform: uppercase;
+    font-size: 35px;
+    width: 90%;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+}
+
+.donats_column p {
+    font-family: 'Evolve';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.grey_text {
+    color: #989898;
+    font-size: 17px;
+}
+
+.bank_card {
+    background-color: #FF8A00;
+    border-radius: 9px;
+    color:black;
+    display: flex;
+    width: fit-content;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.bank_card:hover {
+    color:black;
+    background-color: orange;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.bank_card:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.bank_card img{
+    width: 30px;
+    margin: 0;
+}
+
+
+.bank_card h2 {
+    font-family: 'Evolve';
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0 0 0 15px;
 }
