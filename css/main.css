@@ -4,7 +4,7 @@
 
 
 .highlight {
-    color: #f79824;
+    color: #FF8A00;
 }
 
 
@@ -55,7 +55,7 @@
 }
 
 .main-button {
-    background-color: #f79824;
+    background-color: #FF8A00;
     color: black;
     border: none;
     padding: 0.6rem 1rem;
@@ -126,7 +126,7 @@ footer {
 .column p {
     display: flex;
     align-items: center;
-    color: orange;
+    color: #FF8A00;
     margin: 5px 0;
 }
 
@@ -171,7 +171,7 @@ header {
 }
 
 .highlight {
-    color: #f79824;
+    color: #FF8A00;
 }
 
 a.nav-link {
@@ -208,4 +208,20 @@ a.nav-link:hover {
 
 .container-padding {
     padding-left: 100px;
+}
+
+.item-shelter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+    width: 180px;
+    margin: 0px 20px 50px 20px;
+    justify-content: space-between;
+}
+
+.shelter-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

@@ -33,5 +33,66 @@
 
 .container .icon-text {
     font-family: 'Evolve';
+    letter-spacing: 2px;
     font-weight: 400;
+}
+
+footer {
+    background-color: #21201F;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: top;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.column h3 {
+    margin-bottom: 10px;
+    font-family: 'Waffle';
+    letter-spacing: 2px;
+}
+
+.column p {
+    display: flex;
+    align-items: center;
+    color: #FF8A00;
+    height: 50px;
+    margin: 15px 0 0 0;
+    font-family: 'Evolve';
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.column span {
+    margin-left: 10px;
+}
+
+.icon1 {
+    width: 26px;
+    height: 20px;
+    background-size: cover;
+}
+
+.icon2 {
+    width: 18px;
+    height: 26px;
+    background-size: cover;
+}
+
+.icon-mail {
+    background-image: url('../assets/icon-email.png');
+}
+
+.icon-phone {
+    background-image: url('../assets/icon-phone.png');
+}
+
+.icon-map {
+    background-image: url('../assets/icon-marker.png');
 }
