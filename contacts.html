@@ -8,15 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Cozy House</title>
 </head>
-<body>
-    <header><!-- Хэдер надо сделать absolut что бы он не колизился с превым скролом-->
+<body style="background-color: #F6F6F6;">
+    <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="assets/Logo.png" alt="Logo" style="padding-left: 20px;">
             </a>
             <!-- Тогглер для адаптивного меню -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">+</span>
+                <span class="navbar-toggler-icon"><div id="lines"></div></span>
             </button>
             <!-- Элементы навигации справа -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="padding-right: 20px">
@@ -76,29 +76,38 @@
     </div>
 
     <div class="main-content">
-        <img src="assets/dog.png" alt="Описание картинки">
+        <div class="left-column">
+            <img src="assets/dog.png" alt="Описание картинки">
+        </div>
         <div class="right-column">
-            <h1>make a donation</h1>
-            <p>Name of the bank / Type of bank account</p>
-            <button class="main-button mt-3" style="width: 40vh;"><b>8380 2880 8028 8791 7435</b></button>
-            <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <div class="text-content">
+                <h1>YOU CAN ALSO MAKE A DONATION</h1>
+                <p>Name of the bank / Type of bank account</p>
+                
+                <button class="main-button mt-3 orange" style="width: 30vh;">
+                    <span class="button-content">
+                        <i class="icon card"></i> 8380 2880 8028 8791 7435
+                    </span>
+                </button>
+                <p style="text-align: left;">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
         </div>
     </div>
 
     <footer>
         <div class="footer-container">
             <div class="column">
-                <h3>For questions and <br>suggestions</h3>
-                <p><i class="icon icon-mail"></i><span>email@shelter.com</span></p>
-                <p><i class="icon icon-phone"></i><span>13 674 567 75 54</span></p>
+                <h3 style="text-transform: uppercase;">For questions and <br>suggestions</h3>
+                <p><i class="icon1 icon-mail"></i><span>email@shelter.com</span></p>
+                <p><i class="icon1 icon-phone"></i><span>13 674 567 75 54</span></p>
             </div>
             <div class="column">
-                <h3>We  are waiting<br> for your visit</h3>
-                <p><i class="icon icon-map"></i><span>1 Central Street, Boston (entrance from the store)</span></p>
-                <p><i class="icon icon-map"></i><span>18 South Park, London </span></p>
+                <h3 style="text-transform: uppercase;">We are waiting <br>your visit</h3>
+                <p><i class="icon2 icon-map"></i><span>1 Central Street, Boston <br>(entrance from the store)</span></p>
+                <p><i class="icon2 icon-map"></i><span>18 South Park, London </span></p>
             </div>
         </div>
-    </footer>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
