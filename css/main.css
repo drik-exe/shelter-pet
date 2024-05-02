@@ -70,3 +70,80 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-weight: bold;
 }
+
+/* ////// */
+
+.left-column,
+.right-column {
+    flex: 1; /* Колонки займут по половине ширины родителя */
+    display: flex; /* Также используем flexbox для центрирования изображения и текста */
+    justify-content: center; /* Горизонтальное центрирование содержимого колонок */
+    align-items: center; /* Вертикальное центрирование содержимого колонок */
+    text-align: center; /* Центрируем текст внутри правой колонки */
+    padding: 20px; /* Добавляем немного отступа */
+}
+
+.left-column img {
+    max-width: 100%; /* Чтобы картинка не выходила за пределы своей колонки */
+    height: auto; /* Чтобы сохранить пропорции картинки */
+}
+
+.text-content {
+    max-width: 80%; /* Ограничиваем ширину текста, делая его менее широким, чем колонка */
+}
+
+.main-content {
+    display: flex; /* Используем flexbox для расположения колонок */
+    align-items: center; /* Вертикальное центрирование контента колонок */
+}
+
+.main-content button{
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #21201F;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.column h3 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.column p {
+    display: flex;
+    align-items: center;
+    color: orange;
+    margin: 5px 0;
+}
+
+.column span {
+    margin-left: 10px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+
+
+.icon-mail {
+    background-image: url('../assets/icon-email.png');
+}
+
+.icon-phone {
+    background-image: url('../assets/icon-phone.png');
+}
+
+.icon-map {
+    background-image: url('../assets/icon-marker.png');
+}
