@@ -160,7 +160,8 @@ footer {
 
 
 header {
-    position: absolute; /* ЭТО НАДО ИСПРАВИТЬ, НЕ РАБОТАЕТ АДАПТИВ */
+    /* position: absolute; ЭТО НАДО ИСПРАВИТЬ, НЕ РАБОТАЕТ АДАПТИВ */
+    background-color: #21201F;
     width: 100%;
     z-index: 10; 
 }
