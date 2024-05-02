@@ -1,112 +1,73 @@
 .pattern-background {
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
 }
 
 .dog-image {
-    background: url('../assets/golden.png') no-repeat bottom center;
-    background-size: 85vh;
-    background-color: #21201F;
-}
-
-.dog-image2 {
-    background: url('../assets/dog-slide2.png') no-repeat center bottom;
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../assets/repeat-bg-main.png') repeat;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  background: url('../assets/golden.png') no-repeat bottom center;
+  background-size: 85vh;
+  background-color: #21201F;
 }
 
 .card-button {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 1vh 3vw;
-    font-size: 1vw;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    font-weight: bold;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  font-size: 0.85vw;
+  border-radius: 16px;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: 'Waffle';
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}
+
+.card-button:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.35);
+  background-color: rgb(244, 244, 244);
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 1vh 3vw;
-    font-size: 1vw;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    font-weight: bold;
-  }
-
-  .container h2 {
-    font-family: 'Waffle';
-  }
-
-  .container p {
-    font-family: 'Evolve';
-    font-weight: 400;
-  }
-  
-  .content p {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .responsive-image {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
-    margin-top: 20px;
-  }
-  
-  .btn-learn-more {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 15px 40px;
-    font-size: 0.85vw;
-    border-radius: 16px;
-    font-size: 14px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin-bottom: 15px;
-    font-weight: bold;
-    transition: all 0.5s ease;
-  }
-  
-  .btn-learn-more:hover {
-    background-color: #0056b3;
-  }
-  
-  @media (max-width: 768px) {
-    .header h1 {
-      font-size: 1.5rem;
-    }
-    .btn-learn-more {
-      width: 100%;
-      text-align: center;
-    }
-  }
-
-
-
-  /* Стили для кнопки */
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
+.container-news {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px;
+  background-color: #FAFAFA;
+  color: black;
+  border: none;
+  padding: 50px 50px;
+  border-radius: 52px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.25);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
 
-.pattern-background2 {
-    background-color: #21201F;
-    color: white;
+.container-news h2 {
+  font-family: 'Waffle';
+}
+
+.container-news p {
+  font-family: 'Evolve';
+  font-weight: 400;
+  font-size: 20px;
+  margin: 30px 0px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 700px;
+  margin: 0px auto;
+}
+
+.margin-container {
+  margin: 0px 10px;
 }
