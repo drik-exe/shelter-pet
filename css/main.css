@@ -146,14 +146,6 @@ footer {
     background-image: url('../assets/icon-marker.png');
 }
 
-
-    /* usagi */
-
-
-.container-padding {
-    padding-left: 100px;
-}
-
 .item-shelter {
     display: flex;
     flex-direction: column;

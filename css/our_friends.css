@@ -3,10 +3,10 @@
 }
 
 .dog-image {
+    background: url('../assets/dogs-main.png') no-repeat bottom right;
+    background-size: 100vh;
     background-color: #21201F;
-    display: flex;
-    justify-content: end;
-    align-items: end;
+    padding-right: 0px;
 }
 
 .dog-image2 {

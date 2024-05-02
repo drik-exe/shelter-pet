@@ -3,10 +3,9 @@
 }
 
 .dog-image {
+    background: url('../assets/volunteer.png') no-repeat bottom center;
+    background-size: 90vh;
     background-color: #21201F;
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }
 
 .dog-image2 {
