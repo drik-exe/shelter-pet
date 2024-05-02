@@ -8,9 +8,10 @@
 }
 
 .dog-image {
-    background: url('../assets/dogs-main.png') no-repeat center center;
-    background-size: 75vh;
     background-color: #21201F;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 .dog-image2 {
